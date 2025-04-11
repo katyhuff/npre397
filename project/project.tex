@@ -13,9 +13,9 @@
 
 % Here's where you edit the Class, Exam, Date, etc.
 \newcommand{\class}{NPRE 397}
-\newcommand{\term}{Spring 2025}
-\newcommand{\assignment}{Time-dependent random ray dynamics project}
-\newcommand{\duedate}{2025.05.07}
+\newcommand{\term}{Fakk 2025}
+\newcommand{\assignment}{Reproducible Data Toolkit Enhancements Project}
+\newcommand{\duedate}{2025.12.10}
 %\newcommand{\timelimit}{50 Minutes}
 
 \newcommand{\nth}{n\ensuremath{^{\text{th}}} }
@@ -51,20 +51,25 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-For \class, your total grade will be earned through multiple scientific and 
-technical paper reviews as well as contribution to a comprehensive project. It 
-is intended to tie together ideas regarding technical writing, neutron 
-transport, and numerical methods. 
+For \class, your total grade will be earned through multiple computational 
+exercises as well as contribution to a comprehensive suite of enhancements to 
+the Python for Nuclear Engineering toolkit (PyNE). This independent study 
+is intended to tie together ideas regarding data science, reproducible scientific 
+compuing, and data science.
 
-The primary work will be to prepare a validation study of the Time Derivative
-Propogation (TDP) implementation in OpenMC's Random Ray mode. This study will
-involve running three transient scenarios (a step, a ramp, and a sinusoid), and
-comparing the results to point kinetics. Simulations will be run using local
-workstations, or if needed, cluster computing capabilities. Data from these
-simulations should be saved and put in appropriately structured directories
-along with Python scripts or Jupyter notebooks to generate figures.
+The primary work will be to resolve open issues and implement improvements to the data 
+retrieval capabilities in PyNE. This work will emphasize usability and 
+reproducibility of the toolkit, with special emphasis on streamlining 
+installation and testing for new users and implementation of improved 
+capabilities in the Material and Data classes. 
+Software development can take place using personal or local
+workstations, or if needed, cluster computing capabilities. Data and software 
+contributions resulting from this work will be contributed to the open source 
+repository at \href{github.com/pyne/pyne}{github.com/pyne/pyne}. 
 
-The project will be assessed as independent research work, much 
+The student will be expected to consistently handle assigned issues in the PyNE 
+repository and to complete a final report and presentation summarizing their accomplishments by 
+the end of the semester. The project will be assessed as independent research work, much 
 like a journal article undergoes peer review. I will be looking for : 
 
 \begin{itemize}
@@ -76,25 +81,26 @@ like a journal article undergoes peer review. I will be looking for :
 \item A Conclusion
 \end{itemize}
 
-This work will consist of four deliverables:
+This work will consist of five deliverables:
 
 \begin{itemize}
         \item a work plan,
-        \item completion of the Stanford Writing in the Sciences MOOC,
-        \item editorial reviews on at least two technical documents,
-        \item and a coauthored report in the style of a conference or journal paper.
+        \item completion of the Software Carpentry Git and GitHub training,
+        \item completion of substantial usability improvements in the PyNE codebase,
+        \item a brief summary report in the style of a conference or journal paper,
+        \item and a 10 minute summary presentation.
 \end{itemize}
 
 % ---------------------------------------------
 \begin{questions}
 \addpoints
 % intro
-\question[10] \textbf{Work Plan: Due 2025.01.23}
+\question[10] \textbf{Work Plan: Due 2025.09.05}
 
-To help establish scope and milestones, the first step of the project will be 
-        a 
-        work plan. This plan, developed under supervision of Graduate Research 
-        Assistant Olek Yardas, will be delivered in the form of multiple GitHub 
+To help establish scope and milestones, the first step of the project will be a 
+        work plan. This plan, developed under supervision of an Advanced 
+        Reactors and Fuel Cycles Research Group Graduate Research 
+        Assistant, will be delivered in the form of multiple GitHub 
         issues with descriptions and deadlines describing the work you intend 
         to do in the ARFC group. Start with completing the ARFC new member 
         \href{https://github.com/orgs/arfc/projects/37/views/1}{checklist.}
@@ -103,17 +109,22 @@ Please arrange at least one short meeting with Prof. Huff to discuss the project
 so that I can help you refine your schedule. I would be happy to provide feedback 
 on a draft of your plan (once) before it is due.
 
-\question[20] \textbf{Writing in the Sciences Self-Study: Due \duedate}
-        Watch the full set of videos hosted at
-        \href{https://www.coursera.org/learn/sciwrite/}{Coursera}.
+\question[10] \textbf{Git and GitHub Self-Study: Due 2025.09.19}
+        Conduct the full novice tutorial hosted at 
+        \href{https://swcarpentry.github.io/git-novice/aio.html}{Software 
+        Carpentry}.
 
-\question[20] \textbf{Editorial Reviews: Due \duedate}
-Complete at least two editorial reviews of ARFC technical writing in 
+\question[60] \textbf{Software Contributions: Due \duedate}
+Complete the full suite of GitHub Issues agreed upon as a part of the Work 
+        Plan, within the due dates specified in each issue. All issues must be 
+        completed by \duedate. This will require responsive completion of all 
+        necessary pull requests in  
         collaboration with colleages within the ARFC group. 
 
-\question[60] \textbf{Final Report: Due \duedate}
-The final report, coauthored between Olek Yardas and Thomas Boehnert, will be
-submitted to a journal or conference for publication.
+\question[20] \textbf{Final Report and Presentation: Due \duedate}
+The final report must be submitted to Prof. Huff and a summary presentation 
+        will be given to the ARFC group during a weekly group meeting late in 
+        the semester. 
 
 \end{questions}
 
