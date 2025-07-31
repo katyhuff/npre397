@@ -14,7 +14,7 @@
 % Here's where you edit the Class, Exam, Date, etc.
 \newcommand{\class}{NPRE 397}
 \newcommand{\term}{Fall 2025}
-\newcommand{\assignment}{Reproducible Data Toolkit Enhancements Project}
+\newcommand{\assignment}{Demonstrations of the Python for Reactor Kinetics Toolkit (PyRK)}
 \newcommand{\duedate}{2025.12.10}
 %\newcommand{\timelimit}{50 Minutes}
 
@@ -53,22 +53,27 @@
 
 For \class, your total grade will be earned through multiple computational 
 exercises as well as contribution to a comprehensive suite of enhancements to 
-the Python for Nuclear Engineering toolkit (PyNE). This independent study 
-is intended to tie together ideas regarding data science, reproducible scientific 
+the Python for Reactor Kinetics toolkit (PyRK). This independent study 
+is intended to tie together ideas regarding reactor physics, reactor kinetics, data science, reproducible scientific 
 compuing, and numerical methods for nuclear engineering.
+\textbf{This project is more substantial and advanced in nature. It will 
+require 6-10 hours of effort per week and will therefore earn 2 credit 
+hours.}
 
-The primary work will be to resolve open issues and implement improvements to the data 
-retrieval capabilities in PyNE. This work will emphasize usability and 
-reproducibility of the toolkit, with special emphasis on streamlining 
-installation and testing for new users and implementation of improved 
-capabilities in the Material and Data classes. 
+The primary work will be to demonstrate the PyRK toolkit in the context of an 
+advanced reactor design not yet covered by the suite of example problems. This 
+effort may include resolving open issues in the PyRK repository and 
+implementing improvements to the gaseous density model within. 
+This work will emphasize usability and 
+reproducibility of the toolkit, with special emphasis on demonstrating physics 
+capabilities relevant to high temperature gas reactors (HTGRs). 
 Software development can take place using personal or local
 workstations, or if needed, cluster computing capabilities. Data and software 
 contributions resulting from this work will be contributed to the open source 
-repository at \href{github.com/pyne/pyne}{github.com/pyne/pyne}. 
+repository at \href{github.com/pyne/pyrk}{github.com/pyne/pyrk}. 
 
-The student will be expected to consistently handle assigned issues in the PyNE 
-repository and to complete a final report and presentation summarizing their accomplishments by 
+The student will be expected to consistently handle assigned issues in the PyRK 
+repository and to complete a final report and short presentation summarizing their accomplishments by 
 the end of the semester. The project will be assessed as independent research work, much 
 like a journal article undergoes peer review. I will be looking for : 
 
@@ -81,12 +86,11 @@ like a journal article undergoes peer review. I will be looking for :
 \item A Conclusion
 \end{itemize}
 
-This work will consist of five deliverables:
+This work will consist of four deliverables:
 
 \begin{itemize}
         \item a work plan,
-        \item completion of the Software Carpentry Git and GitHub training,
-        \item completion of substantial usability improvements in the PyNE codebase,
+        \item simulation of reactor transients in an HTGR,
         \item a brief summary report in the style of a conference or journal paper,
         \item and a 10 minute summary presentation.
 \end{itemize}
@@ -95,24 +99,19 @@ This work will consist of five deliverables:
 \begin{questions}
 \addpoints
 % intro
-\question[10] \textbf{Work Plan: Due 2025.09.05}
+\question[20] \textbf{Work Plan: Due 2025.09.05}
 
 To help establish scope and milestones, the first step of the project will be a 
         work plan. This plan, developed under supervision of an Advanced 
         Reactors and Fuel Cycles Research Group Graduate Research 
         Assistant, will be delivered in the form of multiple GitHub 
         issues with descriptions and deadlines describing the work you intend 
-        to do in the ARFC group. Start with completing the ARFC new member 
-        \href{https://github.com/orgs/arfc/projects/37/views/1}{checklist.}
+        to do in the ARFC group. These issues should be compiled into a GitHub 
+        Project in the ARFC organization.
 
 Please arrange at least one short meeting with Prof. Huff to discuss the project plan
 so that I can help you refine your schedule. I would be happy to provide feedback 
 on a draft of your plan (once) before it is due.
-
-\question[10] \textbf{Git and GitHub Self-Study: Due 2025.09.19}
-        Conduct the full novice tutorial hosted at 
-        \href{https://swcarpentry.github.io/git-novice/aio.html}{Software 
-        Carpentry}.
 
 \question[60] \textbf{Software Contributions: Due \duedate}
 Complete the full suite of GitHub Issues agreed upon as a part of the Work 
